@@ -1,0 +1,25 @@
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+  margin: 0;
+}
+
+.serif {
+  font-family: "Noto Serif JP", "Times New Roman", Times, serif !important;
+}
+
+.center{
+  text-align: center;
+}
+
+.caution{
+  background: yellow;
+  border: 2px solid rgb(255, 183, 0);
+  border-radius: 5px;
+  color: black;
+  padding: 0.3em 1em;
+  .title {
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 1;
+  }
+}
