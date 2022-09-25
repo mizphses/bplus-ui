@@ -2,10 +2,10 @@
   <div>
     <nav>
       <nuxt-link class="no-decorator" to="/">
-        <h1 class="logotype">B plus</h1>
+        <h1 class="logotype no-decorator">B plus</h1>
       </nuxt-link>
       <div>
-        <a class="login-button-wrap" href="#">
+        <a class="login-button-wrap no-decorator" href="#">
           <span class="material-symbols-outlined">account_circle</span>
           <span class="login-text-wrap">ログイン</span>
         </a>
@@ -30,24 +30,9 @@
     padding: 0 2em;
     background-color: #fff;
   }
-
-  .material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48
-  }
-
-  .no-decorator{
-    text-decoration: none;
-    color: black;
-  }
-
   .login-button-wrap{
     display: flex;
     align-items: center;
-    text-decoration: none;
     padding: 1px 1px 1px 7px;
     color: white;
     background-color: rgb(220, 0, 0);
@@ -57,7 +42,6 @@
   .login-button-wrap:hover{
     display: flex;
     align-items: center;
-    text-decoration: none;
     padding: 1px 1px 1px 7px;
     color: white;
     background-color: rgb(165, 0, 0);

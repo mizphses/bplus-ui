@@ -8,25 +8,31 @@
       <hr class="hr-width-1/2" />
       <h2 class="center">ご提供中のサービス</h2>
       <div class="services-wrap">
-        <a href="/timetable" class="services-inside">
+        <a href="/timetable" class="services-inside no-decorator">
           <p>
             <span class="material-symbols-outlined service-icon">event</span>
           </p>
           <p>Better時間割</p>
         </a>
-        <a href="#" class="services-inside">
+        <a href="#" class="services-inside no-decorator">
           <p>
             <span class="material-symbols-outlined service-icon">menu_book</span>
           </p>
           <p>教材購入補助ツール</p>
         </a>
-        <a href="#" class="services-inside">
+        <a href="#" class="services-inside no-decorator">
           <p>
             <span class="material-symbols-outlined service-icon">check_circle</span>
           </p>
           <p>卒業可否確認ツール</p>
         </a>
-        <a href="#" class="services-inside">
+        <a href="#" class="services-inside no-decorator">
+          <p>
+            <span class="material-symbols-outlined service-icon">glyphs</span>
+          </p>
+          <p>e過去問</p>
+        </a>
+        <a href="#" class="services-inside no-decorator">
           <p>
             <span class="material-symbols-outlined service-icon">badge</span>
           </p>
@@ -79,7 +85,6 @@
     margin: 0.5em;
     border-radius: 10px;
     border: 1px solid #f0f0f0;
-    text-decoration: none;
     color: black;
     .service-icon{
       font-size: 3em;
