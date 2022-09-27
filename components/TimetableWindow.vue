@@ -94,17 +94,18 @@ export default {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
+    width: calc(100vw - 4em);
   }
   .weeks-plus-view{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
+    width: calc(100vw - 4em);
   }
   .classbox{
+    font-size: 50%;
     width: calc(calc(100vw - 3em)/6 - 2em);
-    margin: 0.3em;
+    margin: 0.1em 0.3em;
     padding: 0.5em;
     min-height: calc(100% / 4.5);
     border: 1px solid black;
@@ -113,8 +114,9 @@ export default {
     justify-content: space-between;
   }
   .weeks-plus-classbox{
-    width: calc(calc(100vw - 3em)/7 - 2em);
-    margin: 0.3em;
+    font-size: 50%;
+    width: calc(calc(100vw - 3em)/7 - 3em);
+    margin: 0.2em 0.1em;
     padding: 0.5em;
     min-height: calc(100% / 4.5);
     border: 1px solid black;
